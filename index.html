@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/dataset.css">
+    <title>Dataset Application</title>
+</head>
+<body>
+<div id="product-list">
+    <!-- card1 -->
+    <div class="product-card" data-id="101" data-name="هاتف ذكي ايفون 16 برو ماكس" data-price="1200 " data-discription=" هاتف ايفون من شركة ابل احدث اصدار وبخاصائص ميزة">
+
+    <img src="imgs/pngwing.com (4).png" alt="iphone" class="product-img">
+    <h3>ايفون 16 برو ماكس بسعر مميز</h3>
+    <button class="details-btn">عرض التفاصيل</button>
+
+    </div>
+
+    <!-- card2 -->
+
+    <div class="product-card" data-id="102" data-name="hp لابتوب " data-price="500" data-discription="لابتوب اتش بي جيل خامس ">
+
+    <img src="imgs/laptop.png" alt="laptop" class="product-img">
+    <h3>hp لابتوب</h3>
+    <button class="details-btn ">عرض التفاصيل</button>
+
+    </div>
+
+    <!-- card3 -->
+
+
+    <div class="product-card" data-id="103" data-name="ايربودز برو " data-price="200 " data-discription="ايربودز برو من شركة ابل">
+
+    <img src="imgs/airpuds.png" alt="airpods" class="product-img">
+    <h3> ايربودز برو</h3>
+    <button class="details-btn">عرض التفاصيل</button>
+
+    </div>
+
+</div>
+
+<!-- view card -->
+
+<div id="product-details" style="display: none;">
+    <!-- details to be viewed  -->
+<img id="detail-img" src="imgs/pngwing.com (4).png" alt="img photo" style="width: 100%; margin-bottom: 10px;">
+<h2 id="product-name"></h2>
+<p id="product-discription"></p>
+<p><Strong>Price: </Strong>$<span id="product-price"> </span></p>
+
+</div>
+
+<script src="dataset.js"></script>
+</body>
+</html>
+
